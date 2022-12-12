@@ -16,6 +16,9 @@ body {
 a { 
   text-decoration: none;
   cursor: pointer;
+  color:  #5c4668; 
+  font-size: 20px;
+  margin-right: 25px;
 }
 a:hover {
   text-decoration: underline;
@@ -38,10 +41,10 @@ header nav .nav-right-section {
   align-items: center;
   margin: 90px 8%;
 }
-nav .nav-right-section a {
-  margin-right: 25px;
-  color:  #5c4668; 
-  font-size: 20px;
+/* nav .nav-right-section a { */
+  /* margin-right: 25px; */
+  /* color:  #5c4668; 
+  font-size: 20px; */
 }
 nav .nav-right-section .menu-icon {
   background-image: url("https://static.thenounproject.com/png/756729-200.png");
@@ -83,12 +86,12 @@ nav .nav-right-section .menu-icon {
 }
 .subHeading h3 {
   color: #5c4668;
-}
-h3 {
   font-size: 40px;
   font-weight: 300;
   margin: 0px 0px;
+  color: #5c4668;
 }
+
 #workGrid {
   margin: 0px 5%;
   display: grid;
@@ -120,12 +123,86 @@ h3 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 10px;
+  margin: 10px; 
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+  border-radius: 15px;
+}
+
+#about {
+  margin: 0px 5%;
+  /* min-height: 500px;
+  height: 90vh; */
+  /* background-color: #c7827de3 ; */
+  background-color: rgba(199, 130, 125, 0.2); 
+  display: grid;
+  grid-template-rows: 85vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "about-me-image"
+  ;
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center;  */
+  border-radius: 15px;
+  /* 
+  
+  grid-template-areas:
+  "furniture-store furniture-store furniture-store"
+  "code-refactor code-refactor equilibrium"
+  "code-refactor code-refactor equilibrium"
+  ; */
+}
+/* #code-refactor {
+  grid-area: code-refactor;
+  background-image: url("../images/01-html-css-git-challenge-demo.png");
+} */
+
+#about-me-image {
+  grid-area: about-me-image;
+  background-image: url("../images/andrew-neel-ute2XAFQU2I-unsplash.jpg");
+}
+.aboutGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 30px;
   cursor: pointer;
   display: grid;
   align-content: end;
   border-radius: 10px;
 }
+#about-me-text {
+  margin-top: 140px;
+  color:#868e96;
+} 
+#about-me-text h2, h3 {
+  color: #343a40;
+}
+ 
+.spacing-content {
+  margin-top: 40px;
+  
+}
+#skills-list {
+  list-style: none;
+}
+.bottom-container {
+  height: 100px;
+  background-color: #c7827de3;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+   */
+  /* text-align: center; */
+  text-align: center;
+  padding: 30px 0 20px;
+}
+/* .bottom-container {
+  background-color: #AC8DAF;
+  
+} */
 
 /* @media only screen and (max-width: 1000px) {
   #navigation {
