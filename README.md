@@ -8,7 +8,7 @@ This Portfolio Project showcases my skills and talents in the development of web
 
 ## Screenshot
 
-![](assets/images/screenshot.png)
+
 
 
 ## Author
