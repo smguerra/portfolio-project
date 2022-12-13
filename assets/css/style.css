@@ -64,7 +64,13 @@ header nav .nav-right-section {
   font-size: 50px;
   font-weight: 250;
 }
-
+.avatar {
+  vertical-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  
+}
 .subHeading {
   text-align: center;
   width: 300px;
