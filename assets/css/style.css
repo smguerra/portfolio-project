@@ -81,7 +81,7 @@ header nav .nav-right-section {
 #workGrid {
   margin: 0px 5%;
   display: grid;
-  grid-template-rows: 800px 500px 500px;
+  grid-template-rows: 700px  500px 500px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
   "furniture-store furniture-store furniture-store"
@@ -151,7 +151,7 @@ header nav .nav-right-section {
   border-radius: 10px;
 }
 #about-me-text {
-  margin-top: 160px;
+  margin-top: 60px;
   color:#868e96;
   margin-right: 50px;
 } 
