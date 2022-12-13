@@ -16,7 +16,7 @@ body {
 a { 
   text-decoration: none;
   cursor: pointer;
-  color:  #5c4668; 
+  color:  #242628d6;; 
   font-size: 20px;
   margin-right: 25px;
 }
@@ -72,11 +72,10 @@ header nav .nav-right-section {
 }
 
 .subHeading h3 {
-  color: #5c4668;
   font-size: 40px;
   font-weight: 300;
   margin: 0px 0px;
-  color: #5c4668;
+  color: #242628d6;
 }
 /* Grid CSS */
 #workGrid {
@@ -117,10 +116,10 @@ header nav .nav-right-section {
   border-radius: 15px;
 }
 .heading {
-  background-color: rgb(255, 255, 255,0.6);
+  background-color: rgb(255, 255, 255,0.8);
   padding: 20px 30px 30px 30px;
   height: 25px;
-  color: #343a40d6;
+  color: #242628d6;
   font-size: 26px;
 }
 
@@ -190,6 +189,10 @@ a {
 }
 header nav .nav-right-section {
   margin: 0px -4%
+}
+.heading {
+  font-size: 18px;
+  padding: 20px 20px 30px 20px;
 }
 }
 
